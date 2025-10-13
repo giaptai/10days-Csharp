@@ -1,0 +1,14 @@
+D:\csharp-project\10days\Day6\obj\Debug\net9.0\Day6.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharp-project\10days\Day6\obj\Debug\net9.0\Day6.AssemblyInfoInputs.cache
+D:\csharp-project\10days\Day6\obj\Debug\net9.0\Day6.AssemblyInfo.cs
+D:\csharp-project\10days\Day6\obj\Debug\net9.0\Day6.csproj.CoreCompileInputs.cache
+D:\csharp-project\10days\Day6\bin\Debug\net9.0\Day6.exe
+D:\csharp-project\10days\Day6\bin\Debug\net9.0\Day6.deps.json
+D:\csharp-project\10days\Day6\bin\Debug\net9.0\Day6.runtimeconfig.json
+D:\csharp-project\10days\Day6\bin\Debug\net9.0\Day6.dll
+D:\csharp-project\10days\Day6\bin\Debug\net9.0\Day6.pdb
+D:\csharp-project\10days\Day6\obj\Debug\net9.0\Day6.dll
+D:\csharp-project\10days\Day6\obj\Debug\net9.0\refint\Day6.dll
+D:\csharp-project\10days\Day6\obj\Debug\net9.0\Day6.pdb
+D:\csharp-project\10days\Day6\obj\Debug\net9.0\Day6.genruntimeconfig.cache
+D:\csharp-project\10days\Day6\obj\Debug\net9.0\ref\Day6.dll

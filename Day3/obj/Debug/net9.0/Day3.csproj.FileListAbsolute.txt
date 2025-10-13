@@ -1,0 +1,14 @@
+D:\csharp-project\10days\Day3\obj\Debug\net9.0\Day3.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharp-project\10days\Day3\obj\Debug\net9.0\Day3.AssemblyInfoInputs.cache
+D:\csharp-project\10days\Day3\obj\Debug\net9.0\Day3.AssemblyInfo.cs
+D:\csharp-project\10days\Day3\obj\Debug\net9.0\Day3.csproj.CoreCompileInputs.cache
+D:\csharp-project\10days\Day3\bin\Debug\net9.0\Day3.exe
+D:\csharp-project\10days\Day3\bin\Debug\net9.0\Day3.deps.json
+D:\csharp-project\10days\Day3\bin\Debug\net9.0\Day3.runtimeconfig.json
+D:\csharp-project\10days\Day3\bin\Debug\net9.0\Day3.dll
+D:\csharp-project\10days\Day3\bin\Debug\net9.0\Day3.pdb
+D:\csharp-project\10days\Day3\obj\Debug\net9.0\Day3.dll
+D:\csharp-project\10days\Day3\obj\Debug\net9.0\refint\Day3.dll
+D:\csharp-project\10days\Day3\obj\Debug\net9.0\Day3.pdb
+D:\csharp-project\10days\Day3\obj\Debug\net9.0\Day3.genruntimeconfig.cache
+D:\csharp-project\10days\Day3\obj\Debug\net9.0\ref\Day3.dll
