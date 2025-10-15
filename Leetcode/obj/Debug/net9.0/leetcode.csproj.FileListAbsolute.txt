@@ -1,0 +1,15 @@
+D:\csharp-project\10days\Leetcode\bin\Debug\net9.0\leetcode.exe
+D:\csharp-project\10days\Leetcode\bin\Debug\net9.0\leetcode.deps.json
+D:\csharp-project\10days\Leetcode\bin\Debug\net9.0\leetcode.runtimeconfig.json
+D:\csharp-project\10days\Leetcode\bin\Debug\net9.0\leetcode.dll
+D:\csharp-project\10days\Leetcode\bin\Debug\net9.0\leetcode.pdb
+D:\csharp-project\10days\Leetcode\obj\Debug\net9.0\leetcode.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharp-project\10days\Leetcode\obj\Debug\net9.0\leetcode.AssemblyInfoInputs.cache
+D:\csharp-project\10days\Leetcode\obj\Debug\net9.0\leetcode.AssemblyInfo.cs
+D:\csharp-project\10days\Leetcode\obj\Debug\net9.0\leetcode.csproj.CoreCompileInputs.cache
+D:\csharp-project\10days\Leetcode\obj\Debug\net9.0\leetcode.sourcelink.json
+D:\csharp-project\10days\Leetcode\obj\Debug\net9.0\leetcode.dll
+D:\csharp-project\10days\Leetcode\obj\Debug\net9.0\refint\leetcode.dll
+D:\csharp-project\10days\Leetcode\obj\Debug\net9.0\leetcode.pdb
+D:\csharp-project\10days\Leetcode\obj\Debug\net9.0\leetcode.genruntimeconfig.cache
+D:\csharp-project\10days\Leetcode\obj\Debug\net9.0\ref\leetcode.dll
