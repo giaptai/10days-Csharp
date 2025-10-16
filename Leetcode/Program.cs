@@ -22,7 +22,9 @@ https://voz.vn/t/thac-mac-ve-chuong-trinh-rockies-cua-nashtech.917924/page-3
 - Đề bài là tìm những số có số lần xuất hiện lớn nhất.
     VD: 1-2-2-3-3-4 thì kết quả là 2 và 3.
         1-2-2-3-3-2-4 thì kết quả là 2.
-- 
+        
+- Bạn có một file text input.txt, mỗi dòng chứa một câu (string).
+Viết chương trình đọc file đó, mỗi dòng đảo ngược thứ tự các từ (word-level, không phải ký tự), rồi ghi ra file output.txt.
 
 English test: 40 câu trắc nghiệm và 1 câu viết 70 - 100 từ
 -  1 đoạn nói về khác biệt của bản thân so với các ứng viên khác
@@ -74,7 +76,7 @@ void ThirdMaxNum(int[] nums)
             t = s;
             s = num;
         }
-        else
+        else if (num > t)
         {
             t = num;
         }
@@ -99,15 +101,15 @@ void CheckPrimaryNum(int num)
         Console.WriteLine($"{num} is Not primary number");
         return;
     }
-    for (int i = 2; i < Math.Sqrt(num); i++)
+    for (int i = 2; i <= Math.Sqrt(num); i++)
     {
         if (num % i == 0)
         {
             Console.WriteLine($"{num} is not primary number");
             return;
         }
-        Console.WriteLine($"{num} is primary number");
     }
+    Console.WriteLine($"{num} is primary number");
 }
 
 void CheckStringPalindrome(string str)
@@ -231,12 +233,46 @@ void ValidParentheses(string str)
     Console.WriteLine(st.Count == 0 ? "Valid Parentheses" : "Not Valid Parentheses");
 }
 
-SecondMaxNum(new int[] { 1, 2, 3, 5, 2, 3, 8 });
-ThirdMaxNum(new int[] { 1, 2, 3, 5, 2, 3, 8 });
-ReverseString("mot con vit Xoe");
-CheckPrimaryNum(6);
-CheckStringPalindrome("raceca1r");
-CheckNumPalindrome(123213);
-Fibonnancci(6);
-ApperenceMost([1, 2, 2, 3, 3, 4]);
-ValidParentheses("((())");
+void ReverseWordsInFile()
+{
+    if (!File.Exists("input.txt"))
+    {
+        File.Create("input.txt");
+    }
+    if (!File.Exists("output.txt"))
+    {
+        File.Create("output.txt");
+    }
+    StreamReader reader = new StreamReader("input.txt");
+    StreamWriter writer = new StreamWriter("output.txt");
+    string? line;
+    while ((line = reader.ReadLine()) != null)
+    {
+        string[] temp = line.Split(" ");
+        for (int i = temp.Length - 1; i >= 0; i--)
+        {
+            if (i != 0)
+            {
+                writer.Write($"{temp[i]} ");
+            }
+            else
+            {
+                writer.Write(temp[i]);
+            }
+        }
+        writer.WriteLine();
+    }
+    writer.Close();
+}
+
+
+// SecondMaxNum(new int[] { 1, 2, 3, 5, 2, 3, 8 });
+// ThirdMaxNum(new int[] { 1, 2, 3, 5, 2, 3, 8 });
+// ReverseString("mot con vit Xoe");
+// CheckPrimaryNum(6);
+// CheckStringPalindrome("raceca1r");
+// CheckNumPalindrome(123213);
+// Fibonnancci(6);
+// ApperenceMost([1, 2, 2, 3, 3, 4]);
+// ValidParentheses("((())");
+ReverseWordsInFile();
