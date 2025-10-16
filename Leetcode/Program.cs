@@ -26,10 +26,12 @@ https://voz.vn/t/thac-mac-ve-chuong-trinh-rockies-cua-nashtech.917924/page-3
 
 English test: 40 câu trắc nghiệm và 1 câu viết 70 - 100 từ
 -  1 đoạn nói về khác biệt của bản thân so với các ứng viên khác
-- First, thank to Nashtech give me an opportunity to attandance test interview, I am happy to retain new experience
-As 
-*/
 
+First of all, thank to Nashtech give me a chance to join this Open Day 3 to gain new experiences.
+What make me different from other candidates is I am happy to learn new things and always try my best.
+
+
+*/
 
 using System.Text;
 
@@ -172,6 +174,63 @@ void Fibonnancci(int n)
 }
 
 
+void ApperenceMost(int[] nums)
+{
+    Dictionary<int, int> dict = new Dictionary<int, int>();
+    foreach (int num in nums)
+    {
+        if (dict.ContainsKey(num))
+        {
+            dict[num] += 1;
+        }
+        else
+        {
+            dict[num] = 1;
+        }
+    }
+
+    int maxVal = dict.Values.Max();
+
+    foreach (KeyValuePair<int, int> pair in dict)
+    {
+        if (pair.Value == maxVal)
+        {
+            Console.WriteLine($"Phần tử {pair.Key}: {pair.Value} lan");
+        }
+    }
+}
+
+void ValidParentheses(string str)
+{
+    Stack<char> st = new Stack<char>();
+    for (int i = 0; i < str.Length; i++)
+    {
+        if (str[i] == '(' || str[i] == '[' || str[i] == '{')
+        {
+            st.Push(str[i]);
+        }
+        else if (str[i] == ')' || str[i] == ']' || str[i] == '}')
+        {
+            if (st.Count == 0)
+            {
+                Console.WriteLine("Not Valid Parentheses");
+                return;
+            }
+
+            char top = st.Pop();
+            if ((str[i] == ')' && top != '(') ||
+            (str[i] == ']' && top != '[') ||
+            (str[i] == '}' && top != '{')
+            )
+            {
+                Console.WriteLine("Not Valid Parentheses");
+                return;
+            }
+        }
+    }
+    Console.WriteLine(st.Count == 0 ? "Valid Parentheses" : "Not Valid Parentheses");
+}
+
 SecondMaxNum(new int[] { 1, 2, 3, 5, 2, 3, 8 });
 ThirdMaxNum(new int[] { 1, 2, 3, 5, 2, 3, 8 });
 ReverseString("mot con vit Xoe");
@@ -179,3 +238,5 @@ CheckPrimaryNum(6);
 CheckStringPalindrome("raceca1r");
 CheckNumPalindrome(123213);
 Fibonnancci(6);
+ApperenceMost([1, 2, 2, 3, 3, 4]);
+ValidParentheses("((())");
