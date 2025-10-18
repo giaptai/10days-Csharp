@@ -22,7 +22,7 @@ https://voz.vn/t/thac-mac-ve-chuong-trinh-rockies-cua-nashtech.917924/page-3
 - Đề bài là tìm những số có số lần xuất hiện lớn nhất.
     VD: 1-2-2-3-3-4 thì kết quả là 2 và 3.
         1-2-2-3-3-2-4 thì kết quả là 2.
-        
+
 - Bạn có một file text input.txt, mỗi dòng chứa một câu (string).
 Viết chương trình đọc file đó, mỗi dòng đảo ngược thứ tự các từ (word-level, không phải ký tự), rồi ghi ra file output.txt.
 
@@ -265,7 +265,46 @@ void ReverseWordsInFile()
     writer.Close();
 }
 
+void CountDict(string[] str)
+{
+    Dictionary<string, int> dict = new Dictionary<string, int>();
+    dict["PM"] = 0;
+    dict["DEV"] = 0;
 
+    foreach (string s in str)
+    {
+        if (s.Length == 6)
+        {
+            if (s[0] == 'P' && s[1] == 'M')
+            {
+                dict["PM"] += 1;
+            }
+        }
+        else if (s.Length == 7)
+        {
+            if (s[0] == 'D' && s[1] == 'E' && s[2] == 'V')
+            {
+                dict["DEV"] += 1;
+            }
+        }
+    }
+    int c = 0;
+    foreach (KeyValuePair<string, int> i in dict)
+    {
+        if(c== dict.Count() - 1)
+        {
+            Console.Write($"{i.Key} {i.Value}");
+        }
+        else
+        {
+            Console.Write($"{i.Key} {i.Value}, ");
+        }
+        c++;
+    }
+    Console.WriteLine();
+}
+
+CountDict(["PM0123", "PM1222", "DEV1217", "DEV9872", "DEV1112"]);
 // SecondMaxNum(new int[] { 1, 2, 3, 5, 2, 3, 8 });
 // ThirdMaxNum(new int[] { 1, 2, 3, 5, 2, 3, 8 });
 // ReverseString("mot con vit Xoe");
@@ -275,4 +314,4 @@ void ReverseWordsInFile()
 // Fibonnancci(6);
 // ApperenceMost([1, 2, 2, 3, 3, 4]);
 // ValidParentheses("((())");
-ReverseWordsInFile();
+// ReverseWordsInFile();

@@ -25,27 +25,27 @@
 // Console.WriteLine(names[0]);
 // Console.WriteLine(names.Count);
 // Console.WriteLine(names.Contains("Tú"));
-// foreach (string name in names)
+// foreach (string n in names)
 // {
-//     Console.Write($"{name} ");
+//     Console.Write($"{n} ");
 // }
 // Console.WriteLine();
-//END List
+// END List
 
 // Dictionary
-// Dictionary<string, int> ages = new Dictionary<string, int>();
-// ages["Lan"] = 20;
-// ages["Thư"] = 24;
-// foreach (KeyValuePair<string, int> age in ages)
-// {
-//     Console.WriteLine($"{age.Key} : {age.Value}");
-// }
-// List<KeyValuePair<string, int>> ageList = ages.ToList();
-// List<KeyValuePair<string, int>> ageList2 = [..ages];
-// for (int i = 0; i < ageList.Count; i++)
-// {
-//     Console.WriteLine($"{ageList[i].Key} : {ageList[i].Value}");
-// }
+Dictionary<string, int> ages = new Dictionary<string, int>();
+ages["Lan"] = 20;
+ages["Thư"] = 24;
+foreach (KeyValuePair<string, int> age in ages)
+{
+    Console.WriteLine($"{age.Key} : {age.Value}");
+}
+List<KeyValuePair<string, int>> ageList = ages.ToList();
+List<KeyValuePair<string, int>> ageList2 = [..ages];
+for (int i = 0; i < ageList.Count; i++)
+{
+    Console.WriteLine($"{ageList[i].Key} : {ageList[i].Value}");
+}
 // end Dictionary
 
 // String
