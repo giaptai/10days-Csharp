@@ -136,3 +136,4 @@ D:\csharp-project\10days\Day9\obj\Debug\net9.0\refint\Day9.dll
 D:\csharp-project\10days\Day9\obj\Debug\net9.0\Day9.pdb
 D:\csharp-project\10days\Day9\obj\Debug\net9.0\Day9.genruntimeconfig.cache
 D:\csharp-project\10days\Day9\obj\Debug\net9.0\ref\Day9.dll
+D:\csharp-project\10days\Day9\obj\Debug\net9.0\Day9.sourcelink.json
