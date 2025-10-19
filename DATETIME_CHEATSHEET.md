@@ -4,7 +4,7 @@
 
 ## 🎯 Tại sao cần học DateTime?
 
-Nashtech thường có **1 câu xử lý chuỗi + DateTime**, ví dụ:
+thường có **1 câu xử lý chuỗi + DateTime**, ví dụ:
 - Tính số ngày giữa 2 ngày
 - Parse date string từ file
 - Kiểm tra năm nhuận
@@ -350,7 +350,7 @@ if (ts1 > ts2)
 
 ---
 
-## 🔥 6. PATTERNS THƯỜNG DÙNG TRONG NASHTECH TEST
+## 🔥 6. PATTERNS THƯỜNG DÙNG TRONG TEST
 
 ### **Pattern 1: Tính tuổi từ ngày sinh**
 ```csharp
@@ -694,7 +694,7 @@ if (date1.Date == date2.Date) { }  // True!
 
 ---
 
-## ✅ 9. CHECKLIST CHO NASHTECH TEST
+## ✅ 9. CHECKLIST CHO TEST
 
 - [ ] Biết parse date từ string với `TryParse` hoặc `TryParseExact`?
 - [ ] Biết format date sang string với `ToString()`?
@@ -707,7 +707,7 @@ if (date1.Date == date2.Date) { }  // True!
 
 ---
 
-## 🎯 10. CODE TEMPLATE CHO NASHTECH
+## 🎯 10. CODE TEMPLATE CHO
 
 ### **Template: Xử lý date từ file**
 ```csharp
@@ -756,4 +756,4 @@ string ProcessDate(DateTime date)
 
 ---
 
-**DONE! Đây là tất cả kiến thức DateTime bạn cần cho Nashtech test!** 🚀📅
+**DONE! Đây là tất cả kiến thức DateTime bạn cần cho test!** 🚀📅

@@ -643,7 +643,7 @@ void MergeFiles(string[] inputFiles, string outputFile)
 
 ---
 
-## 🎯 11. CHECKLIST CHO NASHTECH TEST
+## 🎯 11. CHECKLIST CHO TEST
 
 - [ ] Kiểm tra file tồn tại trước khi đọc?
 - [ ] Dùng `using` với StreamReader/StreamWriter?
@@ -656,4 +656,4 @@ void MergeFiles(string[] inputFiles, string outputFile)
 
 ---
 
-**DONE! Đây là tất cả kiến thức File I/O bạn cần cho Nashtech test!** 🚀
+**DONE! Đây là tất cả kiến thức File I/O bạn cần cho test!** 🚀

@@ -1,4 +1,4 @@
-# 🎯 CHEATSHEET C# - NASHTECH TEST (KHÔNG CÓ INTELLISENSE)
+# 🎯 CHEATSHEET C# - TEST (KHÔNG CÓ INTELLISENSE)
 
 > **Mục đích:** Học thuộc lòng các syntax, hàm, và patterns để viết code KHÔNG cần gợi ý IntelliSense
 >
@@ -1200,7 +1200,7 @@ System.IO                    // Cho File operations
 
 ---
 
-**🎯 HỌC THUỘC CHEATSHEET NÀY = TỰ TIN 100% KHI THI NASHTECH!**
+**🎯 HỌC THUỘC CHEATSHEET NÀY = TỰ TIN 100% KHI THI!**
 
 **🔗 Liên kết:**
 - [FILE_IO_CHEATSHEET.md](FILE_IO_CHEATSHEET.md)

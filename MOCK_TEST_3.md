@@ -1,4 +1,4 @@
-# 🎯 MOCK TEST 3 - NASHTECH ROOKIE SIMULATION (CHALLENGE)
+# 🎯 MOCK TEST 3 - ROOKIE SIMULATION (CHALLENGE)
 **Thời gian: 90 phút | 3 câu hỏi: 2 Easy + 1 Medium (Đề khó hơn)**
 
 ---
@@ -416,7 +416,7 @@ public class Solution
 - ✅ Câu 2: Valid Sudoku cần hiểu logic 3 chiều (row/col/box)
 - ✅ Câu 3: Hệ thống hoàn chỉnh với nhiều chức năng + LINQ
 
-**Nếu làm được Test 3 trong 90 phút → Bạn sẵn sàng cho Nashtech!** 💪
+**Nếu làm được Test 3 trong 90 phút → Bạn sẵn sàng cho!** 💪
 
 ---
 

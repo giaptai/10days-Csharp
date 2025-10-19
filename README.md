@@ -1,4 +1,4 @@
-# 📅 Lộ trình 10 ngày học C# (Tối ưu cho Nashtech Rookie Test)
+# 📅 Lộ trình 10 ngày học C# (Tối ưu cho Rookie Test)
 
 ## **Ngày 1: Làm quen môi trường**
 - Cài đặt **Visual Studio / VS Code** + **.NET SDK**  
@@ -91,7 +91,7 @@
 
 ---
 
-## **Ngày 9: File I/O (QUAN TRỌNG CHO NASHTECH)**
+## **Ngày 9: File I/O (QUAN TRỌNG CHO)**
 - **Đọc file:**
   - `File.ReadAllLines()` - đọc toàn bộ
   - `File.ReadLines()` - lazy loading
@@ -117,7 +117,7 @@
 
 ---
 
-## **Ngày 10: Mock Tests & Review (CHO NASHTECH TEST)**
+## **Ngày 10: Mock Tests & Review (CHO TEST)**
 - **Mock Test 1:** 2 Easy + 1 Medium (Algorithms cơ bản)
   - XOR Trick, Anagram, Spiral Matrix
 - **Mock Test 2:** 2 Easy + 1 Medium (File I/O + DateTime)
@@ -144,7 +144,7 @@
 
 ---
 
-## 🔥 KHẨN CẤP: Lộ trình 2 ngày cuối cho Nashtech Test (18-19/10)
+## 🔥 KHẨN CẤP: Lộ trình 2 ngày cuối cho Test (18-19/10)
 
 ### **🚨 Ngày 18 (HÔM NAY) - 4-5 giờ:**
 **BUỔI SÁNG (2-3 giờ):**
@@ -214,7 +214,7 @@
 
 ---
 
-👉 **Với lộ trình này, bạn sẽ sẵn sàng cho Nashtech Rookie Test vào ngày 20/10/2024!** 🚀
+👉 **Với lộ trình này, bạn sẽ sẵn sàng cho Rookie Test vào ngày 20/10/2024!** 🚀
 
 **7 Patterns quan trọng nhất (HỌC THUỘC LÒNG!):**
 
@@ -376,4 +376,4 @@ for (int i = 0; i < matrix.Length; i++) {
 
 **👉 BẠN ĐÃ HỌC ĐƯỢC 9 NGÀY, ĐÃ LÀM ĐỦ BÀI TẬP, BẠN SẼ LÀM TỐT THÔI!** 💪🔥
 
-**Chúc bạn may mắn trong kỳ thi Nashtech Rookie ngày 20/10/2024!** 🚀✨
+**Chúc bạn may mắn trong kỳ thi Rookie ngày 20/10/2024!** 🚀✨

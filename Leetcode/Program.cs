@@ -267,31 +267,25 @@ void ReverseWordsInFile()
 
 void CountDict(string[] str)
 {
-    Dictionary<string, int> dict = new Dictionary<string, int>();
+    Dictionary<string, int> dict = new Dictionary<string, int>(){};
     dict["PM"] = 0;
     dict["DEV"] = 0;
 
     foreach (string s in str)
     {
-        if (s.Length == 6)
+        if (s.Length == 6 && s.StartsWith("PM"))
         {
-            if (s[0] == 'P' && s[1] == 'M')
-            {
-                dict["PM"] += 1;
-            }
+            dict["PM"] += 1;
         }
-        else if (s.Length == 7)
+        else if (s.Length == 7 && s.StartsWith("DEV"))
         {
-            if (s[0] == 'D' && s[1] == 'E' && s[2] == 'V')
-            {
-                dict["DEV"] += 1;
-            }
+            dict["DEV"] += 1;
         }
     }
     int c = 0;
     foreach (KeyValuePair<string, int> i in dict)
     {
-        if(c== dict.Count() - 1)
+        if (c == dict.Count() - 1)
         {
             Console.Write($"{i.Key} {i.Value}");
         }
@@ -315,3 +309,9 @@ CountDict(["PM0123", "PM1222", "DEV1217", "DEV9872", "DEV1112"]);
 // ApperenceMost([1, 2, 2, 3, 3, 4]);
 // ValidParentheses("((())");
 // ReverseWordsInFile();
+
+List<bool> list = new List<bool>();
+
+Dictionary<int, int> dict = new Dictionary<int, int>();
+Stack<int> stack = new Stack<int>();
+Queue<int> queue = new Queue<int>();

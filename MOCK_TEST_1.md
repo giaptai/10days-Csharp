@@ -1,4 +1,4 @@
-# 🎯 MOCK TEST 1 - NASHTECH ROOKIE SIMULATION
+# 🎯 MOCK TEST 1 - ROOKIE SIMULATION
 **Thời gian: 90 phút | 3 câu hỏi: 2 Easy + 1 Medium**
 
 ---

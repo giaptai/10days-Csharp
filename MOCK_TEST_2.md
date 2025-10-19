@@ -1,4 +1,4 @@
-# 🎯 MOCK TEST 2 - NASHTECH ROOKIE SIMULATION (FILE I/O)
+# 🎯 MOCK TEST 2 - ROOKIE SIMULATION (FILE I/O)
 **Thời gian: 90 phút | 3 câu hỏi: 2 Easy + 1 Medium (có File I/O)**
 
 ---
@@ -296,6 +296,6 @@ string formatted = percentage.ToString("F2"); // 33.33
 
 ---
 
-**Đây là bài test sát với thực tế Nashtech nhất vì có File I/O!** 🔥
+**Đây là bài test sát với thực tế nhất vì có File I/O!** 🔥
 
 **Hãy bắt đầu làm bài và thông báo cho tôi khi hoàn thành!** 🚀
