@@ -1,0 +1,16 @@
+========== SERVER LOG ANALYSIS ==========
+Total Logs: 10
+
+LOG LEVEL STATISTICS:
+- INFO: 4 (40.00%)
+- ERROR: 4 (40.00%)
+- WARNING: 2 (20.00%)
+
+MOST FREQUENT LEVEL: INFO
+
+ERROR MESSAGES:
+1. Database connection failed
+2. API timeout
+3. File not found
+4. Invalid credentials
+=========================================
