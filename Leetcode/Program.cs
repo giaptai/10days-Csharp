@@ -28,17 +28,6 @@ Viết chương trình đọc file đó, mỗi dòng đảo ngược thứ tự 
 
 English test: 40 câu trắc nghiệm và 1 câu viết 70 - 100 từ
 -  1 đoạn nói về khác biệt của bản thân so với các ứng viên khác
-
-First of all, thank you to Nashtech for giving me a chance to join this Open Day 3 and gain new experiences. 
-What makes me different from other candidates is that I am always happy to learn new things and try my best in every task. 
-I am not afraid of challenges because I see them as opportunities to grow. 
-I also enjoy working with others and sharing ideas, which helps me improve faster. 
-With this attitude, I believe I can contribute positively to the team.
-
-In a competitive job market, I believe the best way to show employers that I am the right candidate is through my attitude and skills. 
-I always prepare carefully, demonstrate responsibility, and show respect for teamwork. 
-I highlight my strengths with real examples, such as solving problems quickly or supporting colleagues. 
-I also keep learning to improve myself. By combining professional knowledge with a positive mindset, I can prove that I will bring value and grow with the company.
 */
 
 // using System.Text;
@@ -466,46 +455,99 @@ I also keep learning to improve myself. By combining professional knowledge with
 // // stack.Push(1);
 // // stack.Pop();
 // // stack.Peek();
-// // Queue<int> queue = new Queue<int>();
+// Bài toán: Tìm chuỗi con lặp lại với số lần lặp ít nhất
+// Input: "abab" → Output: "ab" (lặp 2 lần)
+// Input: "abcabc" → Output: "abc" (lặp 2 lần)
+// Input: "abcde" → Output: "abcde" (lặp 1 lần - không có pattern)
+void FindMinRepeatingSubstring(string str)
+{
+    int n = str.Length;
 
-DateTime now = DateTime.Now;
-Console.WriteLine(now);
+    // Thử từng độ dài từ 1 đến n/2
+    for (int len = 1; len <= n / 2; len++)
+    {
+        // Chỉ kiểm tra nếu len là ước của n
+        if (n % len == 0)
+        {
+            string substring = str.Substring(0, len);
+            bool isRepeating = true;
 
-DateTime utcNow = DateTime.UtcNow;
-Console.WriteLine(utcNow);
+            // Kiểm tra xem substring có lặp lại thành chuỗi ban đầu không
+            for (int i = len; i < n; i += len)
+            {
+                if (str.Substring(i, len) != substring)
+                {
+                    isRepeating = false;
+                    break;
+                }
+            }
 
-DateTime today = DateTime.Today;
-Console.WriteLine(today);
+            if (isRepeating)
+            {
+                Console.WriteLine($"Chuỗi con lặp lại: '{substring}' (lặp {n / len} lần)");
+                return;
+            }
+        }
+    }
 
-DateTime date1 = new DateTime(2024, 10, 16);
-Console.WriteLine(date1);
+    // Nếu không tìm thấy pattern nào, chuỗi không lặp
+    Console.WriteLine($"Chuỗi con lặp lại: '{str}' (lặp 1 lần)");
+}
 
-DateTime date2 = new DateTime(2024, 10, 16, 14, 30, 0);
-Console.WriteLine(date2);
+// Test cases
+FindMinRepeatingSubstring("abab");        // Output: "ab" (lặp 2 lần)
+FindMinRepeatingSubstring("abcabc");      // Output: "abc" (lặp 2 lần)
+FindMinRepeatingSubstring("aaaa");        // Output: "a" (lặp 4 lần)
+FindMinRepeatingSubstring("abcabcabc");   // Output: "abc" (lặp 3 lần)
+FindMinRepeatingSubstring("abcde");       // Output: "abcde" (lặp 1 lần)
+FindMinRepeatingSubstring("abababab");    // Output: "ab" (lặp 4 lần)
+FindMinRepeatingSubstring("adecbbcbb");
 
-DateTime date3 = new DateTime(2024, 10, 16, 14, 30, 0, 500);
-Console.WriteLine(date3);
+Console.WriteLine();
 
-bool isLeapYear = DateTime.IsLeapYear(now.Year);
-Console.WriteLine(isLeapYear);
+// Queue<int> queue = new Queue<int>();
+// queue.Enqueue(1);
+// queue.Dequeue();
+// queue.Peek();
 
-TimeSpan times = now - date1;
-Console.WriteLine(times.Days);
+
+// DateTime now = DateTime.Now;
+// Console.WriteLine(now);
+
+// DateTime utcNow = DateTime.UtcNow;
+// Console.WriteLine(utcNow);
+
+// DateTime today = DateTime.Today;
+// Console.WriteLine(today);
+
+// DateTime date1 = new DateTime(2024, 10, 16);
+// Console.WriteLine(date1);
+
+// DateTime date2 = new DateTime(2024, 10, 16, 14, 30, 0);
+// Console.WriteLine(date2);
+
+// DateTime date3 = new DateTime(2024, 10, 16, 14, 30, 0, 500);
+// Console.WriteLine(date3);
+
+// bool isLeapYear = DateTime.IsLeapYear(now.Year);
+// Console.WriteLine(isLeapYear);
+
+// TimeSpan times = now - date1;
+// Console.WriteLine(times.Days);
 // Console.WriteLine(times.TotalDays);
 // Console.WriteLine(times.TotalHours);
 // Console.WriteLine(times.TotalMinutes);
 
-DateTime dateTimeParse = DateTime.Parse("2025/10/20");
+// DateTime dateTimeParse = DateTime.Parse("2025/10/20");
 
-DateTime dateOnly = dateTimeParse.Date;
-Console.WriteLine(dateOnly);
+// DateTime dateOnly = dateTimeParse.Date;
+// Console.WriteLine(dateOnly);
 
-Console.WriteLine(dateTimeParse.Date.ToString("yyyy-MM-dd"));
+// Console.WriteLine(dateTimeParse.Date.ToString("yyyy-MM-dd"));
 
-Console.WriteLine(now.DayOfWeek);
+// Console.WriteLine(now.DayOfWeek);
 
-Console.WriteLine(now.Year - 2001);
-
+// Console.WriteLine(now.Year - 2001);
 
 
 
