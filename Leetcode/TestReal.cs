@@ -1,7 +1,7 @@
 /*
 Đề thi thuật toán (thi chiều T5 16/1/2025)
 2.1: Vấn đề A
-Trong công ty Nashtech Việt Nam có các nhân viên mang 2 loại mã:
+Trong công ty A Việt Nam có các nhân viên mang 2 loại mã:
 Mã 1 có dạng PMXXXX
 Mã 2 có dạng DEVXXXX
 X là chữ số từ 0 – 9, biết rằng các nhân viên công ty đều có mã như vậy và đều không giống nhau.
@@ -22,7 +22,7 @@ Input: AAA BCD@#
 Output: A 3, B 1, C 1, D 1, @ 1, # 1, space 1
 
 2.3 Vấn đề C
-Giả định trong trường ĐH Nashtech, sinh viên được tính điểm tổng kết học phần theo các mức như sau:
+Giả định trong trường ĐH Abc, sinh viên được tính điểm tổng kết học phần theo các mức như sau:
 A: Từ 90% trở lên
 B: Dưới 90%
 C: Dưới 80%

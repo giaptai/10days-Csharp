@@ -4,12 +4,10 @@
 - đảo ngược chuỗi
 - kiểm tra số nguyên tố
 
-https://voz.vn/t/xin-%C4%91uoc-anh-chi-%C4%91i-truoc-tu-van-ve-khoa-rookie-nashtech-a.936330/
 - kiểm tra đối xứng
 - tính trung bình
 - xử lý chuỗi
 
-https://voz.vn/t/thac-mac-ve-chuong-trinh-rockies-cua-nashtech.917924/page-3
 - 1 câu valid parentheses
 - 1 câu tính toán trên matrix
 - 1 câu xử lý chuỗi + gợi ý sử dụng lib/package datetime
@@ -455,6 +453,7 @@ English test: 40 câu trắc nghiệm và 1 câu viết 70 - 100 từ
 // // stack.Push(1);
 // // stack.Pop();
 // // stack.Peek();
+
 // Bài toán: Tìm chuỗi con lặp lại với số lần lặp ít nhất
 // Input: "abab" → Output: "ab" (lặp 2 lần)
 // Input: "abcabc" → Output: "abc" (lặp 2 lần)
