@@ -502,6 +502,7 @@ FindMinRepeatingSubstring("abcde");       // Output: "abcde" (lặp 1 lần)
 FindMinRepeatingSubstring("abababab");    // Output: "ab" (lặp 4 lần)
 FindMinRepeatingSubstring("adecbbcbb");
 FindMinRepeatingSubstring("bbbbbbbbb");
+FindMinRepeatingSubstring("bbbbbbbbbc");
 Console.WriteLine();
 
 // Queue<int> queue = new Queue<int>();
